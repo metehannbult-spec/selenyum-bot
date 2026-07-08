@@ -1,8 +1,8 @@
-# 🤖 Selenium Bot
+#  Selenium Bot
 
 Bu depo, Selenium öğrenme sürecimde geliştirdiğim uygulamaları ve hazırladığım teknik dokümantasyonları içermektedir.
 
-## 📌 Projenin Amacı
+##  Projenin Amacı
 
 Bu projede Selenium kullanarak;
 
@@ -15,20 +15,20 @@ konularını öğreniyor ve uyguluyorum.
 
 ---
 
-# 📚 Dokümantasyon
+#  Dokümantasyon
 
 ## Chrome Ayarlarını Yapılandırma
-📄 [Makaleyi Oku](docs/chrome-ayarlari.md)
+ [Makaleyi Oku](docs/chrome-ayarlari.md)
 
 ## WebDriver Kullanımı
-📄 [Makaleyi Oku](docs/webdriver.md)
+ [Makaleyi Oku](docs/webdriver.md)
 
 ## MySQL Bağlantısı
-📄 [Makaleyi Oku](docs/mysql-baglantisi.md)
+ [Makaleyi Oku](docs/mysql-baglantisi.md)
 
 ---
 
-# 💻 Proje Dosyaları
+#  Proje Dosyaları
 
 - app.py
 - app2.py
@@ -37,7 +37,7 @@ konularını öğreniyor ve uyguluyorum.
 
 ---
 
-# 🛠️ Kullanılan Teknolojiler
+#  Kullanılan Teknolojiler
 
 - Python
 - Selenium
@@ -48,6 +48,6 @@ konularını öğreniyor ve uyguluyorum.
 
 ---
 
-# 📖 Not
+# Not
 
 Bu depo öğrenme sürecimde sürekli güncellenmektedir. Yeni konular öğrendikçe hem kodları hem de açıklayıcı makaleleri eklemeye devam edeceğim.
