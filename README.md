@@ -1,28 +1,53 @@
- import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
+# 🤖 Selenium Bot
 
-# Chrome ayarlarını yapılandırma
-options = Options()
-# options.add_argument("--headless")  # Tarayıcının ekranda görünmeden arka planda çalışmasını sağlar (şu an kapalı)
-options.add_argument("--disable-gpu") # GPU hızlandırmasını devre dışı bırakır (Headless modda hataları önler)
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+Bu depo, Selenium öğrenme sürecimde geliştirdiğim uygulamaları ve hazırladığım teknik dokümantasyonları içermektedir.
 
-# WebDriver'ı başlatma ve ayarları uygulama
-driver = webdriver.Chrome(options=options)
+## 📌 Projenin Amacı
 
-# Hedef web sitesine gitme
-driver.get("https://www.amazon.com")
+Bu projede Selenium kullanarak;
 
-# Sayfanın yüklenmesi için bekleme
-time.sleep(3)
+- Chrome tarayıcısını yapılandırma
+- WebDriver kullanımı
+- Veritabanı bağlantısı
+- Web otomasyonu geliştirme
 
-# Sayfa başlığını çekip terminale yazdırma
-print("Page title:", driver.title)
+konularını öğreniyor ve uyguluyorum.
 
-# Tarayıcıyı kapatmadan önce bekleme
-time.sleep(5)
+---
 
-# İşlem bitince tarayıcıyı tamamen kapatma
-driver.quit()
+# 📚 Dokümantasyon
+
+## Chrome Ayarlarını Yapılandırma
+📄 [Makaleyi Oku](docs/chrome-ayarlari.md)
+
+## WebDriver Kullanımı
+📄 [Makaleyi Oku](docs/webdriver.md)
+
+## MySQL Bağlantısı
+📄 [Makaleyi Oku](docs/mysql-baglantisi.md)
+
+---
+
+# 💻 Proje Dosyaları
+
+- app.py
+- app2.py
+- dbmanager.py
+- demo-schooldb.py
+
+---
+
+# 🛠️ Kullanılan Teknolojiler
+
+- Python
+- Selenium
+- ChromeDriver
+- MySQL
+- Git
+- GitHub
+
+---
+
+# 📖 Not
+
+Bu depo öğrenme sürecimde sürekli güncellenmektedir. Yeni konular öğrendikçe hem kodları hem de açıklayıcı makaleleri eklemeye devam edeceğim.
